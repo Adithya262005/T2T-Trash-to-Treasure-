@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Register - T2T</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container">
+    <div class="brand"><img src="logo.png" alt="logo"/><span>T2T Trash to Treasure</span></div>
+  </header>
+
+  <main class="container">
+    <section style="max-width:480px;margin:18px auto">
+      <div class="card">
+        <h2 class="section-title">Register</h2>
+        <form action="register.php" method="post">
+          <div style="margin-bottom:10px">
+            <label class="small">Full Name</label><br/>
+            <input type="text" name="fullname" placeholder="Your Name" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #e6e9ee"/>
+          </div>
+          <div style="margin-bottom:10px">
+            <label class="small">Email</label><br/>
+            <input type="email" name="email" placeholder="you@example.com" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #e6e9ee"/>
+          </div>
+          <div style="margin-bottom:10px">
+            <label class="small">Password</label><br/>
+            <input type="password" name="password" placeholder="password" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #e6e9ee"/>
+          </div>
+          <button type="submit" name="submit" class="cta" style="border:none;cursor:pointer">Register</button>
+        </form>
+
+        <p class="small" style="margin-top:12px">
+          Already have an account? <a href="signin.html">Log In</a>
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
